@@ -284,7 +284,7 @@ public class HelloApplication extends Application {
                             l.setTranslateY(3*tileSize);
                             l.setTextFill(Color.BLUE);
                             l.setFont(new Font("Arial", 300));
-                            System.out.println("vyhra");
+
                             pieceGroup.getChildren().addAll(l,p);
                         }
                         break;
@@ -302,7 +302,6 @@ public class HelloApplication extends Application {
                             l.setTranslateY(3*tileSize);
                             l.setTextFill(Color.BLUE);
                             l.setFont(new Font("Arial", 300));
-                            System.out.println("WIN");
                             pieceGroup.getChildren().addAll(l,p);
                         }
                         Piece otherPiece = result.getPiece();
